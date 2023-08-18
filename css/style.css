@@ -1,0 +1,223 @@
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+}
+.host{
+    margin-left: -60px;
+    margin-top: 30px;
+}
+.sub1{
+    padding-top: -40px;
+    margin-left: -5px;
+    padding: 5;
+    color: gold;
+}
+.sub1 span{
+    padding: 5px;
+    background-color: red;
+    background-color: rgb(194, 194, 194);
+    color: gold;
+    border-radius: 10px;
+  
+}
+.img1{
+    margin-left: 60px;
+    
+}
+.coming{
+    margin-left: 70px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.Subscribe{
+    width: 30%;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: transparent;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(116, 116, 116);
+}
+/* .navb{
+   color: aliceblue;
+    margin-top: -200px;
+    margin-left: 15px;
+    
+    
+}
+.navb button{
+    background-color: RED;
+    width: 8%;
+    margin-left: -5px;
+    border-radius: 5px;
+    color: gold;
+}
+.navb i{
+    padding-top: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.navb .icon{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.icon h5{
+    position: relative;
+    margin-left: 40px;
+    margin-top: -24px;
+    font-weight: bold;
+   
+}
+.hov:hover .icon h5{
+background-color: red;
+} */
+nav{
+    background-color: red;
+    color: red;
+    width: 12%;
+    padding-top: 15px;
+    height: 470px;
+    margin-top: -820px;
+    position:sticky;
+}
+nav i{
+    margin-top: 30px;
+    color: rgb(199, 199, 199);
+    
+}
+nav .nav-item i{
+    font-size: 22px;
+}
+nav h5{
+    display: none;
+    margin-left: 40px;
+    margin-top: -24px;
+}
+.nav-item i:hover{
+    color:white;
+    font-weight: bold;
+}
+.nav-item i:hover h5{
+    display: block;
+    color: white;
+    font-weight: bold;
+}
+.nav-item button{
+    border-radius: 10px;
+    padding-bottom: 2px;
+}
+.con{
+   margin-top: -250px;
+  margin-left: 70px;
+   
+}
+.con h1{
+    color: rgb(255, 123, 0);
+    font-weight: bold;
+    font-size: 50px;
+}
+.con p{
+    color: rgb(247, 243, 240);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 1opx;
+    margin-left: 170px;
+}
+.con button{
+    color: rgb(129, 128, 128);
+    font-weight: bold;
+    width: 25%;
+    height: 45px;
+    border-radius: 10px;
+    border: transparent;
+    font-size: 20px;
+    margin-top: 1opx;
+    margin-left: 170px;
+
+}
+.con .btn{
+    color: rgb(129, 128, 128);
+    font-weight: bold;
+    width: 5%;
+    height: 45px;
+    border-radius: 10px;
+    border: transparent;
+    font-size: 20px;
+    margin-top: -7px;
+    margin-left: 20px;
+}
+.container-my{
+    border-radius: 5px;
+    float: right;
+    margin-top: 140px;
+    margin-right: 18px;
+    position: relative;
+    overflow: hidden;
+    width: 30%;
+    display: grid;
+    place-items: center;
+   }
+   .slide-container{
+       display: flex;
+       width: calc(250px * 18);
+       animation: scroll 20s linear infinite;
+   }
+   @keyframes scroll {
+       0%{transform: translateX(0);}
+       100%{transform: translateX(calc(-140px * 9));}
+   }
+   .slide-image{
+       width: 90px;
+       height: 70px;
+       display: flex;
+   perspective: 100px;
+   }
+   .scroll-images{
+       width: 100%;
+       transition: transform 1s;
+   }
+   .scroll-images:hover{
+       transform: translateZ(20px);
+   }
+    .boxcon{
+        margin-top: 250px;
+        margin-left: 140px;
+       
+    }
+    .boxcon1{
+        margin-left: 140px;
+        
+    }
+    .footer a{
+        text-decoration: none;
+        font-weight: bold;
+        color: azure;
+
+
+    }
+    .facebook{
+       font-size: 35px;
+       margin-left: 50px;
+    }
+    .twitter{
+        font-size: 35px;
+        margin-left: 50px;
+    }
+    .appstore{
+        margin-left: 150px;
+        margin-top: -55px;
+    }
+    .google{
+        margin-top: 90px;
+    }
+    .boxcon1 .rajimage:hover{
+zoom: 50%;
+    }
+    .success{
+    background-color: black;
+    }
